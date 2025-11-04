@@ -2383,7 +2383,6 @@ task.spawn(function()
         task.wait(GLOW_UPDATE_INTERVAL)
         local t = math.sin(tick() * 3)
         glowBtn.Color = Color3.fromRGB(75, 0, 130)
-        glowBtn.Color = Color3.fromRGB(255, 255, 255)
         glowBtn.Transparency = 0.15 + 0.15 * math.abs(t)
     end
 end)
