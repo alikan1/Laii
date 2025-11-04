@@ -898,7 +898,7 @@ end)
 
 local title2 = Instance.new('TextLabel', panel)
 title2.Size = UDim2.new(1, 0, 0, 28)
-title2.Text = 'HEXMENU'
+title2.Text = 'HEXMENU🥀'
 title2.TextColor3 = Color3.fromRGB(0, 255, 0)
 title2.Font = Enum.Font.GothamBold
 title2.TextSize = 18
