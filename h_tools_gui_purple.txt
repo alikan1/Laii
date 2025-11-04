@@ -1,11 +1,5 @@
--- Chered Hub - Edição Completa (otimizada para mobile)
--- Integração: removido FPS Devourer, adicionado Desync Body (Anti-Hit), Source (Inf Jump / JumpBoost) e FLY TO BASE
--- Discord principal atualizado: https://discord.gg/qvVEZt3q88 
--- Data da modificação: 2025-10-10
--- Otimizações mobile: cache de descendants, pooling de sons, intervalos ajustados, debounce otimizado
--- Новое: Подсветка тела при Desync (зеленый fill, красный outline для оригинала и клона)
 
-----------------------------------------------------------------
+---------------------------------------------------------------
 -- PERSISTÊNCIA (somente BEST / SECRET / BASE)
 ----------------------------------------------------------------
 local CONFIG_DIR = 'ali hub'
@@ -1155,10 +1149,10 @@ local function performDesyncLockdown(duration, onComplete)
     label.Size = UDim2.new(1, 0, 0, 120)
     label.Position = UDim2.new(0, 0, 0.45, -60)
     label.BackgroundTransparency = 1
-    label.Text = 'BÄBÄNNƏ DESYNC YOU'
-    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.Text = 'BABANNE is desync you'
+    label.TextColor3 = Color3.fromRGB(128, 0, 128)
     label.Font = Enum.Font.GothamBold
-    label.TextSize = 34
+    label.TextSize = 31
     label.ZIndex = 10000
 
     local barBg = Instance.new('Frame', overlayGui)
@@ -1409,7 +1403,7 @@ local function updateDesyncButton()
         btnDesync.Text = '✅ desync opened'
     else
         btnDesync.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
-        btnDesync.Text = ' DESYNC '
+        btnDesync.Text = ' DESYNC [V] '
     end
 end
 
