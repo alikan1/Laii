@@ -457,7 +457,7 @@ local function updatePlayerESP()
                     box.AlwaysOnTop = true
                     box.ZIndex = 10
                     box.Transparency = 0.5
-                    box.Color3 = Color3.fromRGB(250, 0, 60)
+                    box.Color3 = Color3.fromRGB(0, 162, 255)
                     box.Parent = hrp
                     espBoxes[plr].box = box
 
@@ -601,7 +601,7 @@ end
 -- PAINEL PRINCIPAL (GUI) + TOGGLES + DRAG
 ----------------------------------------------------------------
 local gui = Instance.new('ScreenGui')
-gui.Name = 'ali_FULL'
+gui.Name = 'hex hub'
 gui.ResetOnSpawn = false
 gui.Parent = playerGui
 
@@ -612,7 +612,7 @@ menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 menu.BackgroundTransparency = 0.05
 menu.BorderSizePixel = 0
 menu.Visible = false
-menu.Name = 'VIPMenu'
+menu.Name = 'HEXMENU'
 menu.Parent = gui
 local menuCorner = Instance.new('UICorner', menu)
 menuCorner.CornerRadius = UDim.new(0, 18)
@@ -660,7 +660,7 @@ local tiktokLabel = Instance.new('TextLabel', menu)
 tiktokLabel.Size = UDim2.new(1, -20, 0, 18)
 tiktokLabel.Position = UDim2.new(0, 10, 0, 32)
 tiktokLabel.BackgroundTransparency = 1
-tiktokLabel.Text = 'babanne killer hub'
+tiktokLabel.Text = 'HEX HUB'
 tiktokLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 tiktokLabel.Font = Enum.Font.Gotham
 tiktokLabel.TextSize = 13
@@ -867,7 +867,7 @@ end
 -- PAINEL SECUNDÁRIO: Desync / Inf Jump / Fly to Base
 ----------------------------------------------------------------
 local panel = Instance.new('Frame', gui)
-panel.Name = 'ToolsPanel'
+panel.Name = 'HEX TOOLS🥀'
 panel.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- black background
 panel.BackgroundTransparency = 0
 panel.BorderSizePixel = 0
@@ -898,7 +898,7 @@ end)
 
 local title2 = Instance.new('TextLabel', panel)
 title2.Size = UDim2.new(1, 0, 0, 28)
-title2.Text = 'babanne menu'
+title2.Text = 'HEXMENU'
 title2.TextColor3 = Color3.fromRGB(0, 255, 0)
 title2.Font = Enum.Font.GothamBold
 title2.TextSize = 18
