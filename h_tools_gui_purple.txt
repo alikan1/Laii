@@ -601,7 +601,7 @@ end
 -- PAINEL PRINCIPAL (GUI) + TOGGLES + DRAG
 ----------------------------------------------------------------
 local gui = Instance.new('ScreenGui')
-gui.Name = 'hex hub'
+gui.Name = 'ligmyr hub'
 gui.ResetOnSpawn = false
 gui.Parent = playerGui
 
@@ -648,7 +648,7 @@ end)
 
 local title = Instance.new('TextLabel', menu)
 title.Size = UDim2.new(1, 0, 0, 32)
-title.Text = 'NİKA HUB'
+title.Text = 'LİGMYER HUB'
 title.TextColor3 = Color3.fromRGB(0, 255, 0)
 title.Font = Enum.Font.GothamBold
 title.TextSize = 20
@@ -660,7 +660,7 @@ local tiktokLabel = Instance.new('TextLabel', menu)
 tiktokLabel.Size = UDim2.new(1, -20, 0, 18)
 tiktokLabel.Position = UDim2.new(0, 10, 0, 32)
 tiktokLabel.BackgroundTransparency = 1
-tiktokLabel.Text = 'NİKA HUB'
+tiktokLabel.Text = 'LİGMYER HUB'
 tiktokLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 tiktokLabel.Font = Enum.Font.Gotham
 tiktokLabel.TextSize = 13
@@ -867,7 +867,7 @@ end
 -- PAINEL SECUNDÁRIO: Desync / Inf Jump / Fly to Base
 ----------------------------------------------------------------
 local panel = Instance.new('Frame', gui)
-panel.Name = 'NİKKA TOOLS'
+panel.Name = 'ligmyr TOOLS'
 panel.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- black background
 panel.BackgroundTransparency = 0
 panel.BorderSizePixel = 0
@@ -877,7 +877,7 @@ panel.Visible = true
 local panelCorner = Instance.new('UICorner', panel)
 panelCorner.CornerRadius = UDim.new(0, 16)
 local panelStroke = Instance.new('UIStroke', panel)
-panelStroke.Thickness = 2.5
+panelStroke.Thickness = 3
 panelStroke.Color = Color3.new(0, 0, 0)
 panelStroke.Transparency = 0.2
 
@@ -898,13 +898,13 @@ end)
 
 local title2 = Instance.new('TextLabel', panel)
 title2.Size = UDim2.new(1, 0, 0, 28)
-title2.Text = 'NİKA MENU'
+title2.Text = 'ligmyr MENU'
 title2.TextColor3 = Color3.fromRGB(0, 255, 0)
 title2.Font = Enum.Font.GothamBold
 title2.TextSize = 18
 title2.BackgroundTransparency = 1
 title2.TextStrokeTransparency = 0.7
-title2.TextStrokeColor3 = Color3.new(0, 0, 0)
+title2.TextStrokeColor3 = Color3.new(1, 1, 1)
 
 ----------------------------------------------------------------
 -- DESYNC / ANTI-HIT (otimizado) + Подсветка
