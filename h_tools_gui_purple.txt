@@ -457,7 +457,7 @@ local function updatePlayerESP()
                     box.AlwaysOnTop = true
                     box.ZIndex = 10
                     box.Transparency = 0.5
-                    box.Color3 = Color3.fromRGB(48, 0, 80)
+                    box.Color3 = Color3.fromRGB(128, 0, 128)
                     box.Parent = hrp
                     espBoxes[plr].box = box
 
@@ -469,7 +469,7 @@ local function updatePlayerESP()
                     local label = Instance.new('TextLabel', billboard)
                     label.Size = UDim2.new(1, 0, 1, 0)
                     label.BackgroundTransparency = 1
-                    label.TextColor3 = Color3.fromRGB(48, 0, 80)
+                    label.TextColor3 = Color3.fromRGB(128, 0, 128) 
                     label.TextStrokeTransparency = 0
                     label.Text = plr.Name
                     label.Font = Enum.Font.GothamBold
@@ -648,7 +648,7 @@ end)
 
 local title = Instance.new('TextLabel', menu)
 title.Size = UDim2.new(1, 0, 0, 32)
-title.Text = 'HEX HUB'
+title.Text = 'NİKA HUB'
 title.TextColor3 = Color3.fromRGB(0, 255, 0)
 title.Font = Enum.Font.GothamBold
 title.TextSize = 20
@@ -660,7 +660,7 @@ local tiktokLabel = Instance.new('TextLabel', menu)
 tiktokLabel.Size = UDim2.new(1, -20, 0, 18)
 tiktokLabel.Position = UDim2.new(0, 10, 0, 32)
 tiktokLabel.BackgroundTransparency = 1
-tiktokLabel.Text = 'HEX HUB'
+tiktokLabel.Text = 'NİKA HUB'
 tiktokLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 tiktokLabel.Font = Enum.Font.Gotham
 tiktokLabel.TextSize = 13
@@ -867,7 +867,7 @@ end
 -- PAINEL SECUNDÁRIO: Desync / Inf Jump / Fly to Base
 ----------------------------------------------------------------
 local panel = Instance.new('Frame', gui)
-panel.Name = 'HEX TOOLS🥀'
+panel.Name = 'NİKKA TOOLS'
 panel.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- black background
 panel.BackgroundTransparency = 0
 panel.BorderSizePixel = 0
@@ -898,7 +898,7 @@ end)
 
 local title2 = Instance.new('TextLabel', panel)
 title2.Size = UDim2.new(1, 0, 0, 28)
-title2.Text = 'HEXMENU🥀'
+title2.Text = 'NİKA MENU'
 title2.TextColor3 = Color3.fromRGB(0, 255, 0)
 title2.Font = Enum.Font.GothamBold
 title2.TextSize = 18
@@ -1149,8 +1149,8 @@ local function performDesyncLockdown(duration, onComplete)
     label.Size = UDim2.new(1, 0, 0, 120)
     label.Position = UDim2.new(0, 0, 0.45, -60)
     label.BackgroundTransparency = 1
-    label.Text = 'HEX is desync you'
-    label.TextColor3 = Color3.fromRGB(48, 0, 80)
+    label.Text = ' NİKA is desync you'
+    label.TextColor3 = Color3.fromRGB(128, 0, 128)
     label.Font = Enum.Font.GothamBold
     label.TextSize = 52
     label.ZIndex = 10000
@@ -1166,7 +1166,7 @@ local function performDesyncLockdown(duration, onComplete)
 
     local barFill = Instance.new('Frame', barBg)
     barFill.Size = UDim2.new(0, 0, 1, 0)
-    barFill.BackgroundColor3 = Color3.fromRGB(48, 0, 80)
+    barFill.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
     barFill.BorderSizePixel = 0
     barFill.ZIndex = 10001
     local barFillCorner = Instance.new('UICorner', barFill)
