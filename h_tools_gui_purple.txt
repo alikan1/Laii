@@ -878,7 +878,7 @@ local panelCorner = Instance.new('UICorner', panel)
 panelCorner.CornerRadius = UDim.new(0, 16)
 local panelStroke = Instance.new('UIStroke', panel)
 panelStroke.Thickness = 2.5
-panelStroke.Color = Color3.fromRGB(0, 255, 0)
+panelStroke.Color = Color3.new(0, 0, 0)
 panelStroke.Transparency = 0.2
 
 -- Gradient para panel com animação
