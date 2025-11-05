@@ -1396,7 +1396,7 @@ local btnDesync = createButton(panel, -- tools GUI buttons use purple base
 
 local function updateDesyncButton()
     if antiHitRunning then
-        btnDesync.BackgroundColor3 = Color3.fromRGB(255, 220, 60)
+        btnDesync.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
         btnDesync.Text = 'ACTIVATED!!'
     elseif antiHitActive then
         btnDesync.BackgroundColor3 = Color3.fromRGB(120, 255, 120)
